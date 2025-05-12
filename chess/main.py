@@ -2,8 +2,8 @@
 import sys
 import os
 import pygame as p
-from chess.engine import GameState, Move
-from chess.chessAi import findRandomMoves, findBestMove
+from .engine import GameState, Move
+from .chessAi import findRandomMoves, findBestMove, scoreBoard
 from multiprocessing import Process, Queue
 
 # Đường dẫn tuyệt đối đến thư mục gốc CHESS-AI
@@ -354,7 +354,6 @@ def drawMoveLog(screen, gs, font):
         textY += textObject.get_height() + lineSpacing
 
 def drawGameInfo(screen, gs, font):
-    from chess.chessAi import scoreBoard
     infoRect = p.Rect(BOARD_WIDTH, 0, MOVE_LOG_PANEL_WIDTH, 50)
     p.draw.rect(screen, p.Color(LIGHT_SQUARE_COLOR), infoRect)
 

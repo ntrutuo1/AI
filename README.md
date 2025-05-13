@@ -75,7 +75,7 @@ In chess, pawn promotion occurs when a pawn reaches the eighth rank. The pawn ca
 3. Run the `run.py` script to start the game.
 
    ```bash
-   python run.pypy
+   python run.py
 
 **Using Visual Studio Code:**
 
@@ -126,4 +126,4 @@ The game will automatically handle the rules of chess, including legal moves, ca
    ```bash
    python run.py
 
-## Settings for AI
+

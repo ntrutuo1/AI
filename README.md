@@ -3,6 +3,8 @@
 A simple chess game implemented in Python using the Pygame library.
 It features a basic AI that calculates the optimal move by peeking DEPTH moves ahead. The AI assesses positions and scores only.
 
+This is refernced from https://github.com/anuragjain-git/chess-ai
+
 ![Untitled video - Made with Clipchamp](https://github.com/anuragjain-git/chess/assets/98457054/bfdea7e5-502b-4852-a2c9-115ea32e45da)
 
 ## Introduction
